@@ -1,31 +1,60 @@
 # VocaNote
 
-VocaNote는 단어장을 만들고 정리하며 학습할 수 있는 웹 애플리케이션입니다. 나만의 단어 세트를 만들고 단어와 뜻을 추가한 뒤, 플래시카드 · 객관식 퀴즈 · 쓰기 연습으로 학습할 수 있습니다.
+> 나만의 단어장을 만들고 플래시카드, 퀴즈, 예문 연습으로 단어를 완벽하게 익히세요.
+
+![홈](./images/home.png)
 
 [English](README.md)
 
-## 주요 기능
+---
 
-- **인증** — 회원가입 및 로그인 후 나만의 단어 세트 관리
-- **단어 세트** — 단어 세트 생성, 검색, 조회
-- **단어 추가** — 세트에 단어와 뜻 추가
+## 기능
+
+- **인증** — 회원가입 및 로그인으로 나만의 단어장 관리
+- **단어장** — 단어장 생성, 검색, 탐색
+- **단어 추가** — 단어와 뜻 추가, AI 자동 분석 지원
 - **학습 모드**
   - 플래시카드 (`study/card`)
-  - 객관식 퀴즈 (`study/multiple`)
+  - 객관식 (`study/multiple`)
   - 쓰기 연습 (`study/write`)
-- **검색** — 기존 단어 세트 검색
+- **검색** — 단어장 검색
+
+## 스크린샷
+
+### 단어장 목록
+
+![단어장 목록](./images/wordsets.png)
+
+나의 단어 컬렉션을 한눈에 확인하고 관리하세요.
+
+### 단어 추가 — AI 분석
+
+![AI 분석](./images/ai-analysis.png)
+
+단어를 입력하면 AI가 자동으로 뜻을 분석하고 제안해줍니다.
+
+### 학습: 플래시카드
+
+![플래시카드](./images/study-card.png)
+
+### 학습: 객관식
+
+![객관식](./images/study-multiple.png)
+
+### 학습: 쓰기 연습
+
+![쓰기 연습](./images/study-write.png)
 
 ## 기술 스택
 
-- [React 19](https://react.dev/)
-- [React Router 7](https://reactrouter.com/)
+- [React](https://react.dev/)
 - [Vite](https://vite.dev/)
 - [Axios](https://axios-http.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
 ## 시작하기
 
-### 사전 준비
+### 사전 요구사항
 
 - Node.js
 - npm
@@ -48,18 +77,6 @@ npm run dev
 npm run build
 ```
 
-### 빌드 결과 미리보기
-
-```bash
-npm run preview
-```
-
-### 린트
-
-```bash
-npm run lint
-```
-
 ## 배포
 
-이 프로젝트는 [Vercel](https://vercel.com/) 배포를 위한 [vercel.json](vercel.json) 설정을 포함하고 있습니다.
+이 프로젝트는 [Vercel](https://vercel.com/) 배포를 위한 [vercel.json](vercel.json)을 포함하고 있습니다.
